@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WhatsApp</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>WhatsApp</h1>
+			<div class="btn-container">
+				<button>S</button>
+				<button>I</button>
+			</div>
+		</nav>
+		<nav class="nav">
+			<button class="nav__btn nav__btn--small ">C</button>
+			<button class="nav__btn active unread">Chats</button>
+			<button class="nav__btn">Status</button>
+			<button class="nav__btn">Calls</button>
+		</nav>
+	</header>
+	<main>
+		<div class="slide_container">
+		<ul class="list page_list chat_list">
+			<li class="list_item">
+				<div class="list_item__avatar"></div>
+				<div class="list_item__details">
+					<div class="list_item__details_part">
+						<p class="list_item__name">John Doe</p>
+						<p class="list_item__time">12:38</p>
+					</div>
+					<div class="list_item__details_part">
+						<p class="list_item__preview sent">Where you at?</p>
+						<p class="list_item__message_count">4</p>
+					</div>
+				</div>
+			</li>
+			<li class="list_item unread">
+				<div class="list_item__avatar"></div>
+				<div class="list_item__details">
+					<div class="list_item__details_part">
+						<p class="list_item__name">John Doe</p>
+						<p class="list_item__time">12:38</p>
+					</div>
+					<div class="list_item__details_part">
+						<p class="list_item__preview deleted">Message was deleted</p>
+						<p class="list_item__message_count">4</p>
+					</div>
+				</div>
+			</li>
+			<li class="list_item unread">
+				<div class="list_item__avatar"></div>
+				<div class="list_item__details">
+					<div class="list_item__details_part">
+						<p class="list_item__name">John Doe</p>
+						<p class="list_item__time">12:38</p>
+					</div>
+					<div class="list_item__details_part">
+						<p class="list_item__preview ">Hi!!</p>
+						<p class="list_item__message_count">4</p>
+					</div>
+				</div>
+			</li>
+			<li class="list_item">
+				<div class="list_item__avatar"></div>
+				<div class="list_item__details">
+					<div class="list_item__details_part">
+						<p class="list_item__name">John Doe</p>
+						<p class="list_item__time">12:38</p>
+					</div>
+					<div class="list_item__details_part">
+						<p class="list_item__preview seen">Where you at?</p>
+						<p class="list_item__message_count">4</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+
+		<ul class="list page_list status_list">
+			<li class="list_item">
+						<div class="list_item__avatar"></div>
+						<div class="list_item__details">
+							<div class="list_item__details_part">
+								<p class="list_item__name">My Status</p>
+								
+							</div>
+							<div class="list_item__details_part">
+								<p class="list_item__preview">10 minutes ago</p>
+							</div>
+						</div>
+					</li>	
+			<li>
+				<h5>Recent Updates</h5>
+
+				<ul class="statuses">
+					<li class="list_item">
+						<div class="list_item__avatar">
+							 <svg>
+              <circle cx="25" cy="25" r="20"></circle>
+              <circle cx="25" cy="25" r="20"></circle>
+            </svg>
+						</div>
+						<div class="list_item__details">
+							<div class="list_item__details_part">
+								<p class="list_item__name">John Doe</p>
+								
+							</div>
+							<div class="list_item__details_part">
+								<p class="list_item__preview">Just Now</p>
+							</div>
+						</div>
+					</li>
+					<li class="list_item">
+						<div class="list_item__avatar">
+							<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+							  <circle cx="50" cy="50" r="50"/>
+							</svg>
+
+						</div>
+						<div class="list_item__details">
+							<div class="list_item__details_part">
+								<p class="list_item__name">John Doe</p>
+								
+							</div>
+							<div class="list_item__details_part">
+								<p class="list_item__preview">Just Now</p>
+							</div>
+						</div>
+					</li>
+					<li class="list_item">
+						<div class="list_item__avatar"></div>
+						<div class="list_item__details">
+							<div class="list_item__details_part">
+								<p class="list_item__name">John Doe</p>
+								
+							</div>
+							<div class="list_item__details_part">
+								<p class="list_item__preview">Just Now</p>
+							</div>
+						</div>
+					</li>
+					<li class="list_item">
+						<div class="list_item__avatar"></div>
+						<div class="list_item__details">
+							<div class="list_item__details_part">
+								<p class="list_item__name">John Doe</p>
+								
+							</div>
+							<div class="list_item__details_part">
+								<p class="list_item__preview">Just Now</p>
+							</div>
+						</div>
+					</li>	
+				</ul>
+			</li>
+			<li>
+				<h5>Viewed Updates</h5>
+				<ul class="statuses">
+					<li class="list_item">
+						<div class="list_item__avatar"></div>
+						<div class="list_item__details">
+							<div class="list_item__details_part">
+								<p class="list_item__name">John Doe</p>
+								
+							</div>
+							<div class="list_item__details_part">
+								<p class="list_item__preview">Just Now</p>
+							</div>
+						</div>
+					</li>	
+				</ul>
+			</li>
+		</ul>
+		</div>
+	</main>
+</body>
+</html>
